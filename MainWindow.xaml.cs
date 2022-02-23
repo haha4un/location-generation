@@ -8,6 +8,9 @@ namespace location_generation
     /// </summary>
     public partial class MainWindow : Window
     {
+        // haha4un is maker (⊙_⊙;)
+
+
         const int questNum = 1;
         public MainWindow()
         {
@@ -83,7 +86,7 @@ namespace location_generation
             switch (questNum)
             {
                 case 0:
-                    teger.Text = "Выбери локацию";
+                    teger.Text = "Choose location";
 
                     questsCount1n2.Text = "1/2";
 
@@ -91,7 +94,7 @@ namespace location_generation
                     setting.Visibility = Visibility.Hidden;
                     break;
                 case 1:
-                    teger.Text = "Выбери сэттин";
+                    teger.Text = "Choose setting";
 
                     questsCount1n2.Text = "2/2";
 
